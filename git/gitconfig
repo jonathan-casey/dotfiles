@@ -1,0 +1,10 @@
+[branch "master"]
+    # Avoid merge bubbles: http://stevenharman.net/git-pull-with-automatic-rebase
+    rebase = true
+[branch "main"]
+    # Avoid merge bubbles: http://stevenharman.net/git-pull-with-automatic-rebase
+    rebase = true
+[rebase]
+    autostash = true
+[init]
+    defaultBranch = main
