@@ -1,0 +1,10 @@
+alias mkcd='function mkcd(){ mkdir -p "$1" && cd "$1"; }; mkcd'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias dev='cd ~/dev'  
+
+alias cls='clear'
+alias h='history'                      
